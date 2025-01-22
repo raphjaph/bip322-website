@@ -18,7 +18,7 @@ const FormWrapper = ({
   onReset,
 }: FormWrapperProps) => {
   return (
-    <Card className="bg-transparent border-0 shadow-none w-full">
+    <Card className="bg-[hsl(240,10%,10%)] border-border/40 shadow-none w-full">
       {title && (
         <CardHeader className="relative py-[calc(var(--size)*0.06)]">
           <div className="flex items-center justify-center relative">

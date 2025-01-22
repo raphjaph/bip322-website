@@ -185,7 +185,6 @@ body {
   aspect-ratio: 1;
   padding: calc(var(--font-sm) * 1.8) calc(var(--font-sm) * 1.2);
   transition: all 0.3s ease;
-  background-color: hsl(var(--primary) / 0.05) !important;
 }
 
 .button-icon:hover {
@@ -283,6 +282,17 @@ body {
 .verification-input-error:hover {
   border-color: hsl(var(--error) / 0.6);
   box-shadow: 0 0 calc(var(--glow-size) * 5) hsl(var(--error));
+}
+
+.modal-text {
+  font-size: var(--font-xs);
+  text-shadow: var(--glow);
+  opacity: 0.9;
+  line-height: 1.6;
+}
+
+.modal-text p {
+  margin-bottom: calc(var(--size)*0.06);
 }
 
 @layer base {
