@@ -15,4 +15,3 @@ createRoot(root).render(
     </LaserEyesProvider>
   </StrictMode>
 );
-

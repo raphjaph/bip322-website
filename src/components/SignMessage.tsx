@@ -45,7 +45,7 @@ const SignMessageForm = ({
 
   return (
     <div className="w-full transition-all duration-300 ease-in-out">
-      <div className="w-full bg-primary/5 border-border/40 backdrop-blur rounded-xl animate-in fade-in slide-in-from-bottom-4">
+      <div className="w-full backdrop-blur rounded-xl animate-in fade-in slide-in-from-bottom-4">
         {!walletState.isConnected ? (
           <ConnectWalletForm onBack={() => setIsVisible(false)} />
         ) : (
