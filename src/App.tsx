@@ -19,6 +19,7 @@ function App() {
         walletActions.handleDisconnect();
       }
     };
+
     window.addEventListener("beforeunload", handleBeforeUnload);
     return () => window.removeEventListener("beforeunload", handleBeforeUnload);
   }, [walletState.isConnected, walletActions]);
