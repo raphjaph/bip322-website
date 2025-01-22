@@ -1,3 +1,7 @@
+# bip322.rs
+
+The [bip322.rs](https://bip322.rs) site runs a small WASM binary of the 
+[bip322](https://github.com/rust-bitcoin/bip322) rust crate.
 
 ## Compile for WASM (on MacOs)
 
@@ -13,6 +17,4 @@ wasm-pack build \
     verify
 ```
 
-The WASM binary and Javascript glue code can then be found in `www/pkg`. The
-[bip322.rs](https://bip322.rs) site also runs a small WASM binary if you'd like
-to check it out.
+The WASM binary and Javascript glue code can then be found in `verify/pkg`. 
